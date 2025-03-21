@@ -10,7 +10,7 @@ async function downloadVideo() {
 
     try {
         // Fetch video info
-        const backendURL = "https://youtube-downloader-backend.onrender.com"; // Replace with your Render backend URL
+        const backendURL = "https://youtube-downloader-backend-mv6f.onrender.com"; // Updated backend URL
         const infoResponse = await fetch(`${backendURL}/video-info?url=${encodeURIComponent(videoURL)}`);
         const info = await infoResponse.json();
 
